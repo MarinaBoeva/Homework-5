@@ -37,6 +37,7 @@ a {
   color:white;
 }
 .name {
+  border-left: 0.5px solid transparent;
   display:inline-block;
   width: auto;
   margin: 0 auto;
