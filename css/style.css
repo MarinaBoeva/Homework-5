@@ -12,17 +12,20 @@ a {
   background-image: url(../img/menu.jpg);
 }
 .menu {
+  height: 36px;
   display: block;
   margin: 0 auto;
   float: right;
 }
 .menu li {
+  height: 36px;
+  line-height: 36px;
   display:inline-block;
   list-style: none;
 }
 .menu li a {
   display: block;
-  padding: 10px 30px;
+  padding: 0 30px;
   font-family: 'helvetica',Tahoma,sans-serif;
   font-size: 14;
 }
@@ -55,11 +58,14 @@ a {
 .entrar{
   display:block;
   width: auto;
+  height: 36px;
+  line-height: 36px;
   float: right;
-  padding: 10px;
   margin-right: 40px;
 }
 .entrar li{
+  width: auto;
+  height: 36px;
   display: inline-block;
   list-style: none;
   color: white;
@@ -67,6 +73,8 @@ a {
   font-size: 14;
 }
 .entrar li a{
+  width: auto;
+  height: 36px;
   display:inline-block;
   text-decoration: underline;
   color: white;
