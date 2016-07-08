@@ -117,6 +117,7 @@ a,a:hover,a:active,a:visited {
 
 .form img {
   margin-top: 35px;
+  border-radius:10px;
 
 }
 .form p{
