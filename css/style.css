@@ -9,10 +9,11 @@ a {
 }
 .header {
   height: 36px;
-  width: auto;
+  width: 100%;
   background-image: url(../img/menu.jpg);
   display:flex;
   justify-content: flex-end;
+  position: absolute;
 }
 .menu {
   display:block;
@@ -38,24 +39,22 @@ a {
   display: block;
   color:white;
 }
-.name {
+.ofertas {
   display:inline-block;
   width: auto;
-  border-left: 0.5px solid transparent;
+  border-left: 0.5px solid #56a2dc;
 }
-.name img {
+.ofertas img {
   float:left;
 }
-.name a {
+.ofertas a {
   display:inline-block;
   color:white;
   padding: 10px 20px;
   font-family: 'helvetica',Tahoma,sans-serif;
   font-size: 14;
 }
-.name:hover {
-  border-left: 0.5px solid #56a2dc;
-}
+
 .entrar{
   display:block;
   width: auto;
@@ -89,7 +88,7 @@ a {
   margin: auto;
   margin-bottom: 2px;
   display: block;
-  padding-top:20px;
+  line-height: 60px;
   height: 60px;
   width: 40%;
   color: white;
