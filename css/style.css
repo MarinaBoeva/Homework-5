@@ -153,16 +153,15 @@ form div input:focus{
 display:block;
 margin:0;
 }
- div label {
-   height: auto;
-   width: 50%;
-   position: relative;
-   bottom:25px;
-   left:-8px;
+ label {
+ height: auto;
+ width: 50%;
+ position: relative;
+ bottom:3.5vh;
+ left:-5vh;
   font-family: 'helvetica',Tahoma,sans-serif;
   font-size: 14px;
   color: white;
-  margin:0;
 }
 button {
   position: relative;
