@@ -117,7 +117,6 @@ a {
 }
 .form p{
   position: relative;
-  bottom: 1vh;
   display: block;
   color:white;
   font-size: 14px;
@@ -149,27 +148,26 @@ form div input:focus{
   border-bottom: 1px solid #689bcd;
   border-top: 1px solid #689bcd;
 }
-#check {
-display:block;
-margin:0;
+.check{
+  list-style: none;
+  width: 50%;
+  margin: 0 18%;
 }
- label {
+.check li {
+  display:block;
+}
+li label {
  height: auto;
  width: 50%;
- position: relative;
- bottom:3.5vh;
- left:-5vh;
-  font-family: 'helvetica',Tahoma,sans-serif;
-  font-size: 14px;
-  color: white;
+ font-family: 'helvetica',Tahoma,sans-serif;
+ font-size: 14px;
+ color: white;
 }
 button {
-  position: relative;
-  bottom: 2vh;
   font-family: 'helvetica',Tahoma,sans-serif;
   font-size: 14px;
   color: white;
-  margin:0 auto;
+  margin:2vh auto;
   width: 150px;
   height: 36px;
   background-image: url(../img/hover.png);
