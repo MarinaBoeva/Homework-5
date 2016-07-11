@@ -121,14 +121,19 @@ background-color: #4eabda;
   font-size: 14px;
   font-family: 'helvetica',Tahoma,sans-serif;
 }
-.ou{
-display:block;
+span {
+width:40px;
 }
-.frame {
-display:inline-block;
-width:25%;
-height:3px;
+hr {
+height: 3px;
+border: none;
 background-image:url(../img/frame.png);
+margin: 0;
+width:25%;
+display:inline-block;
+}
+.ou {
+display:block;
 }
 form div input{
 margin: 1.5% auto;
